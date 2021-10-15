@@ -11,5 +11,6 @@ public abstract class BookMetadataExporter extends BookCollection {
             formatter.append(book);
         }
         stream.println(formatter.getMetadataString());
+        formatter.reset();
     }
 }
