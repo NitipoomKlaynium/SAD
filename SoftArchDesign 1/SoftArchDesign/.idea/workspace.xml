@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc401167-244a-4554-80d9-245777bfef9b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftArchDesign.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftArchDesign/edu/parinya/softarchdesign/structural/Anesthesiologist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftArchDesign/edu/parinya/softarchdesign/structural/Cardiologist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftArchDesign/edu/parinya/softarchdesign/structural/ExampleOutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftArchDesign/edu/parinya/softarchdesign/structural/HealthcareServiceable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftArchDesign/edu/parinya/softarchdesign/structural/HealthcareWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftArchDesign/edu/parinya/softarchdesign/structural/HealthcareWorker.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftArchDesign/edu/parinya/softarchdesign/structural/HealthcareWorker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/parinya/softarchdesign/structural/Anesthesiologist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/parinya/softarchdesign/structural/Cardiologist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/parinya/softarchdesign/structural/ExampleOutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/parinya/softarchdesign/structural/HealthcareServiceable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/parinya/softarchdesign/structural/HealthcareWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/parinya/softarchdesign/structural/HealthcareWorker.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/parinya/softarchdesign/structural/HealthcareWorker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/parinya/softarchdesign/structural/HealthcareWorkerDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/parinya/softarchdesign/structural/HealthcareWorkerTeam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/parinya/softarchdesign/structural/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/parinya/softarchdesign/structural/Nurse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/parinya/softarchdesign/structural/Surgeon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/parinya/softarchdesign/structural/TaxPayingHealthcareWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/parinya/softarchdesign/structural/TimeLoggingHealthcareWorker.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1zTaq95cHXdBwL4fTHnVyikPDPh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Structural/SoftArchDesign" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\SoftArchDesign\src\edu\parinya\softarchdesign\structural" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-16" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="edu.parinya.softarchdesign.structural.Main" />
+      <module name="SoftArchDesign" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc401167-244a-4554-80d9-245777bfef9b" name="Changes" comment="" />
+      <created>1634174720881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634174720881</updated>
+      <workItem from="1634821490679" duration="11413000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/edu/parinya/softarchdesign/structural/Cardiologist.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
