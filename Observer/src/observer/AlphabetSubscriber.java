@@ -6,6 +6,6 @@ public class AlphabetSubscriber extends StringSubscriber {
 
     public AlphabetSubscriber(String fileName) {
         super.pattern = Pattern.compile("[a-zA-Z]");
-        super.fileName += fileName;
+        super.filePath += fileName;
     }
 }

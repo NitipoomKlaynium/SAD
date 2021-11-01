@@ -9,7 +9,7 @@ public abstract class StringSubscriber implements Flow.Subscriber<String> {
 
     protected StringSubscription subscription;
     protected Pattern pattern;
-    protected String fileName = "src/observer/test/";
+    protected String filePath = "src/observer/test/";
 
     @Override
     public void onSubscribe(Flow.Subscription subscription) {
@@ -20,7 +20,7 @@ public abstract class StringSubscriber implements Flow.Subscriber<String> {
     public void onNext(String item) {
         if (pattern.matcher(item).find()) {
             try {
-                FileWriter fw = new FileWriter(fileName, true);
+                FileWriter fw = new FileWriter(filePath, true);
                 fw.write(item + "\n");
                 fw.close();
                 this.onComplete();
