@@ -15,13 +15,16 @@ public class StringPublisher implements Flow.Publisher<String> {
 
     @Override
     public void subscribe(Flow.Subscriber subscriber) {
-        if (!subscriptions.contains(subscriber)) {
+        if (!subscribers.contains(subscriber)) {
             subscribers.add((StringSubscriber) subscriber);
 
             StringSubscription subscription = new StringSubscription(subscriber);
 
             subscriptions.add(subscription);
             subscriber.onSubscribe(subscription);
+        }
+        else {
+            System.out.println("This " + subscriber.getClass().getSimpleName() + " are already subscribed.");
         }
     }
 

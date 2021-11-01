@@ -10,6 +10,7 @@ public class Main {
         SymbolSubscriber symbol = new SymbolSubscriber("Symbol.txt");
 
         publisher.subscribe(alphabet);
+        publisher.subscribe(alphabet);
         publisher.subscribe(number);
         publisher.subscribe(symbol);
 
