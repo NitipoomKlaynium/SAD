@@ -40,5 +40,4 @@ public abstract class StringSubscriber implements Flow.Subscriber<String> {
     public void onComplete() {
         System.out.println(this.getClass().getSimpleName() + " has completed subscribing.");
     }
-
 }

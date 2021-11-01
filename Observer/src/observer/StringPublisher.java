@@ -30,8 +30,8 @@ public class StringPublisher implements Flow.Publisher<String> {
 
     public void publish(String message) {
         for (StringSubscription subscription : this.subscriptions) {
-            subscription.send(message);
             subscription.request(1);
+            subscription.publish(message);
         }
     }
 }

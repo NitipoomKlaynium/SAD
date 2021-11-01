@@ -3,24 +3,25 @@ package observer;
 import java.util.concurrent.Flow;
 
 public class StringSubscription implements Flow.Subscription {
-
-    private String message;
     private Flow.Subscriber subscriber;
+    private boolean isRequest;
     private boolean completed;
 
     public StringSubscription(Flow.Subscriber subscriber) {
         this.subscriber = subscriber;
+        isRequest = false;
+        completed = false;
     }
 
     @Override
     public void request(long n) {
-        if (n != 0 && !completed && message != "") {
+        if (n != 0 && !completed) {
             if (n < 0) {
                 IllegalArgumentException ex = new IllegalArgumentException();
                 subscriber.onError(ex);
-            } else {
-                subscriber.onNext(message);
-                message = "";
+            }
+            else {
+                isRequest = true;
             }
         }
     }
@@ -30,7 +31,9 @@ public class StringSubscription implements Flow.Subscription {
         completed = true;
     }
 
-    public void send(String message) {
-        this.message = message;
+    public void publish(String message) {
+        if (isRequest) {
+            subscriber.onNext(message);
+        }
     }
 }
