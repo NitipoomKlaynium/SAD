@@ -9,18 +9,18 @@ public class StringPublisher implements Flow.Publisher<String> {
     private LinkedList<StringSubscription> subscriptions;
 
     public StringPublisher() {
-        subscribers = new LinkedList<StringSubscriber>();
-        subscriptions = new LinkedList<StringSubscription>();
+        this.subscribers = new LinkedList<StringSubscriber>();
+        this.subscriptions = new LinkedList<StringSubscription>();
     }
 
     @Override
     public void subscribe(Flow.Subscriber subscriber) {
-        if (!subscribers.contains(subscriber)) {
-            subscribers.add((StringSubscriber) subscriber);
+        if (!this.subscribers.contains(subscriber)) {
+            this.subscribers.add((StringSubscriber) subscriber);
 
             StringSubscription subscription = new StringSubscription(subscriber);
 
-            subscriptions.add(subscription);
+            this.subscriptions.add(subscription);
             subscriber.onSubscribe(subscription);
         }
         else {
@@ -29,7 +29,7 @@ public class StringPublisher implements Flow.Publisher<String> {
     }
 
     public void publish(String message) {
-        for (StringSubscription subscription : subscriptions) {
+        for (StringSubscription subscription : this.subscriptions) {
             subscription.send(message);
             subscription.request(1);
         }
