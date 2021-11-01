@@ -20,9 +20,9 @@ public abstract class StringSubscriber implements Flow.Subscriber<String> {
     public void onNext(String item) {
         if (pattern.matcher(item).find()) {
             try {
-                FileWriter writter = new FileWriter(fileName, true);
-                writter.write(item + "\n");
-                writter.close();
+                FileWriter fw = new FileWriter(fileName, true);
+                fw.write(item + "\n");
+                fw.close();
                 this.onComplete();
             } catch (IOException e) {
                 System.out.println("Error!");
